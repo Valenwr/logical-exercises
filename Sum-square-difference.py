@@ -1,7 +1,3 @@
-import numpy as np
-from collections import defaultdict
-import math
-
 def sum_squares(n):
     sum = 0
     for number in range(1, n + 1):
