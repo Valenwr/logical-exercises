@@ -12,8 +12,8 @@ def square_sum(n):
     sum = pow(sum, 2)
     return sum
 
-result_sum_squares = sum_squares(10)
-result_square_sum = square_sum(10)
+result_sum_squares = sum_squares(20)
+result_square_sum = square_sum(20)
 result_difference = result_square_sum - result_sum_squares
 
 print(f'The difference between {result_square_sum} and {result_sum_squares} is', result_square_sum - result_sum_squares)
